@@ -1,7 +1,7 @@
 import bs4 
 import requests
 
-url = "https://jadwalsholat.org/adzan/monthly.php?id=215"
+url = "https://jadwalsholat.pkpu.or.id/?id=216"
 content = requests.get(url)
 
 response = bs4.BeautifulSoup(content.text,"html.parser")
